@@ -14,6 +14,7 @@ def return_generated_text():
 
 @app.route("/generate_pdf", methods = ["GET"])
 def generate_questions_pdf():
+    return render_template("questions.html")
     raise NotImplementedError
 
 if __name__ == "__main__":
