@@ -143,6 +143,7 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
+    padding-top: 15px;
 }
 
 .intro__section {
@@ -155,18 +156,19 @@
 }
 
 .file_upload_status {
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 25px;
     text-align: center;
 }
 
 .select__button {
-    margin: auto;
+    margin-left: 60px;
     font-size: 15px;
     cursor: pointer;
 }
 
 .upload__button {
+    margin-left: 65px;
     color: white;
     font-size: 1rem;
     background: #833ab4;
